@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Polityka prywatności aplikacji Dog Cue" />
-    <title>Polityka prywatności — Dog Cue</title>
+    <meta name="description" content="Privacy policy for the Dog Cue app" />
+    <title>Privacy Policy — Dog Cue</title>
     <style>
       :root { color-scheme: light; --ink: #24322b; --muted: #607067; --paper: #fffdf8; --accent: #e87539; --line: #e8e2d7; }
       * { box-sizing: border-box; }
@@ -16,21 +16,30 @@
       p, li { max-width: 70ch; }
       .updated { color: var(--muted); margin: 0; }
       .summary { margin: 32px 0; padding: 18px 20px; background: #fff1e8; border-left: 4px solid var(--accent); border-radius: 8px; }
-      .placeholder { padding: 1px 5px; color: #7a3a15; background: #fff1e8; border-radius: 4px; font-weight: 650; }
       a { color: #a84818; }
       footer { margin-top: 42px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+      .language-switcher { display: flex; justify-content: flex-end; gap: 8px; margin-bottom: 28px; }
+      .language-switcher button { appearance: none; padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); font: inherit; font-weight: 700; cursor: pointer; }
+      .language-switcher button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: white; }
+      [hidden] { display: none !important; }
       @media (max-width: 640px) { main { margin: 0; min-height: 100vh; border: 0; border-radius: 0; padding: 28px 22px; } }
     </style>
   </head>
   <body>
     <main>
+      <nav class="language-switcher" aria-label="Language selection">
+        <button type="button" data-language="pl" aria-pressed="true">PL</button>
+        <button type="button" data-language="en" aria-pressed="false">EN</button>
+      </nav>
+
+      <article data-content-language="pl">
       <h1>Polityka prywatności<br />Dog Cue</h1>
       <p class="updated">Ostatnia aktualizacja: 11 września 2026 r.</p>
 
       <p class="summary"><strong>W skrócie:</strong> Twoje notatki, dane o psie, zdjęcia i filmy pozostają na Twoim urządzeniu. Dog Cue nie tworzy kont użytkowników, nie wyświetla reklam i nie sprzedaje danych. Korzystamy jednak z PostHog do ograniczonej analityki technicznej, aby wiedzieć, które funkcje aplikacji działają i są używane.</p>
 
       <h2>1. Kto odpowiada za dane</h2>
-      <p>Administratorem danych związanych z korzystaniem z aplikacji Dog Cue jest <span class="placeholder">[WPISZ IMIĘ I NAZWISKO LUB NAZWĘ FIRMY]</span>, kontakt: <span class="placeholder">[WPISZ ADRES E-MAIL]</span>.</p>
+      <p>Administratorem danych związanych z korzystaniem z aplikacji Dog Cue jest Middle Dream Studio. Kontakt: <a href="mailto:trikersowo@gmail.com">trikersowo@gmail.com</a>.</p>
 
       <h2>2. Jakie dane przechowuje aplikacja</h2>
       <p>Dog Cue pozwala zapisywać informacje potrzebne do prowadzenia treningów psa, takie jak imię psa, zdjęcie profilowe, obszary i ćwiczenia treningowe, wyniki, notatki, kolejne kroki, daty oraz dodane zdjęcia i filmy.</p>
@@ -60,7 +69,74 @@
       <h2>9. Zmiany polityki</h2>
       <p>Możemy aktualizować tę politykę, gdy zmieni się sposób działania aplikacji lub wymagania prawne. Aktualna wersja będzie zawsze dostępna na tej stronie wraz z datą ostatniej aktualizacji.</p>
 
-      <footer>Masz pytanie dotyczące prywatności? Napisz na <span class="placeholder">[WPISZ ADRES E-MAIL]</span>.</footer>
+      <footer>Masz pytanie dotyczące prywatności? Napisz na <a href="mailto:trikersowo@gmail.com">trikersowo@gmail.com</a>.</footer>
+      </article>
+
+      <article data-content-language="en" lang="en" hidden>
+        <h1>Privacy Policy<br />Dog Cue</h1>
+        <p class="updated">Last updated: 11 September 2026</p>
+
+        <p class="summary"><strong>In short:</strong> Your notes, dog information, photos and videos stay on your device. Dog Cue does not create user accounts, show ads or sell data. We do use PostHog for limited technical analytics so that we can understand which app features work and are used.</p>
+
+        <h2>1. Who is responsible for your data</h2>
+        <p>Middle Dream Studio is the controller of data relating to the use of the Dog Cue app. Contact: <a href="mailto:trikersowo@gmail.com">trikersowo@gmail.com</a>.</p>
+
+        <h2>2. Data stored by the app</h2>
+        <p>Dog Cue lets you save information needed for dog training, such as your dog’s name, profile photo, training areas and exercises, results, notes, next steps, dates, and added photos and videos.</p>
+        <p>This information is stored locally on your device. We do not send it to our servers or share it with other users. The app currently provides neither cloud synchronisation nor user accounts.</p>
+
+        <h2>3. Photos and videos</h2>
+        <p>Access to selected photos or videos is needed only when you choose to add media to a dog profile or training entry. You select files using your device’s system picker. Copies of selected media are stored locally by the app, and you can remove them in the app or by deleting its data.</p>
+
+        <h2>4. App usage analytics</h2>
+        <p>We use PostHog for technical analytics and app development. It may automatically process technical information about the device and app, including approximate network information (such as an IP address processed by the service provider), a device or installation identifier, operating system, app version, screens opened, and events such as saving a training session or completing one.</p>
+        <p>We do not send the content of your notes, your dog’s name, photos, videos or exercise details to PostHog. We use analytics data only to understand how Dog Cue operates and is used, improve stability, and develop features. We do not use it for behavioural advertising or sell it.</p>
+        <p>PostHog is an independent analytics service provider. Its privacy policy is available at <a href="https://posthog.com/privacy">posthog.com/privacy</a>. Analytics data may be processed outside the European Economic Area, with safeguards required by law.</p>
+
+        <h2>5. Legal basis and purpose of processing</h2>
+        <p>Data entered locally in the app is processed to provide its core features on your device and in line with your actions. We process analytics data on the basis of our legitimate interest in maintaining, securing and improving Dog Cue. Where applicable law requires consent for specific analytics technologies, we will request it before using them.</p>
+
+        <h2>6. Data sharing and retention</h2>
+        <p>We do not share local training data, media or notes with other parties. Analytics data is shared only with PostHog as our analytics provider. We retain it only for as long as necessary for the purposes described above or as required by law. Local data remains on your device until you delete it, delete the app’s data, or uninstall the app.</p>
+
+        <h2>7. Your rights</h2>
+        <p>If the GDPR or similar laws apply, you may request access to, rectification or erasure of data, restriction of processing, object to processing and, where applicable, request data portability. You may also lodge a complaint with the relevant data protection authority.</p>
+        <p>For matters concerning analytics data, contact us using the address in section 1. Since training data is stored locally, you can delete it directly in the app or by deleting the app’s data on your device.</p>
+
+        <h2>8. Children</h2>
+        <p>Dog Cue is not directed to children, and we do not knowingly collect children’s personal data.</p>
+
+        <h2>9. Changes to this policy</h2>
+        <p>We may update this policy when the app’s operation or legal requirements change. The current version will always be available on this page together with its last updated date.</p>
+
+        <footer>Questions about privacy? Email <a href="mailto:trikersowo@gmail.com">trikersowo@gmail.com</a>.</footer>
+      </article>
     </main>
+    <script>
+      const buttons = document.querySelectorAll('[data-language]');
+      const articles = document.querySelectorAll('[data-content-language]');
+      const titles = {
+        pl: 'Polityka prywatności — Dog Cue',
+        en: 'Privacy Policy — Dog Cue',
+      };
+
+      function selectLanguage(language) {
+        document.documentElement.lang = language;
+        document.title = titles[language];
+        articles.forEach((article) => {
+          article.hidden = article.dataset.contentLanguage !== language;
+        });
+        buttons.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.language === language));
+        });
+        window.location.hash = language;
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => selectLanguage(button.dataset.language));
+      });
+
+      if (window.location.hash === '#en') selectLanguage('en');
+    </script>
   </body>
 </html>
